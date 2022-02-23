@@ -1,14 +1,31 @@
 body {
-    margin: 0;  
+    margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #fff;
+    color: #30334d;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff  ;
+
 }
 
 *,
 *:before,
 *:after {
     box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+
+p {
+    margin: 0 0 10px 0;
+    /* Сверху 0 справа 0 снизу 10 слева 0 */
 }
 
 /* ===================================
@@ -62,7 +79,7 @@ body {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    
+
 }
 
 .nav__link {
@@ -74,7 +91,7 @@ body {
     transition: opacity .1s linear;
 }
 
-.nav__link:first-child{
+.nav__link:first-child {
     margin-left: 0px;
 
 }
@@ -97,7 +114,7 @@ body {
     background-position: center;
     background-color: #2b2e49;
     align-items: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 
@@ -112,3 +129,69 @@ body {
     text-align: center;
 
 }
+
+
+.intro__inner {
+    width: 100%;
+    max-width: 970px;
+    margin-left: 100px;
+
+}
+
+.intro__title {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    line-height: 75px;
+    line-height: 71.5px;
+    /* можно написать 1, относитель font-size */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.intro__main {
+    margin: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #ffffff
+}
+
+/* ===================================
+============---Button---============== 
+======================================
+*/
+
+.button {
+    display: inline-block;
+    margin: 84px 0 158px;
+    padding: 14px 40px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+
+    border-radius: 3px;
+    transition: background 0.2s linear;
+}
+
+
+
+.button--red {
+    width: 200px;
+    height: 46px;
+    background-color: #e84545;
+
+}
+
+.button--red:hover {
+    background-color: #bd3838;
+}   
