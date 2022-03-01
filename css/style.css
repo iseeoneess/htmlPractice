@@ -33,7 +33,7 @@ p {
 ======================================
 */
 
-.container {
+.header__container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -202,16 +202,18 @@ p {
 ======================================
 */
 
+
 .features {
+    height: 690px;
+}
+
+.features__container {
     margin: 100px 400px 130px 400px;
     align-items: center;
     display: flex;
     flex-wrap:wrap;
 }
 
-.features__container {
-    height: 690px;
-}
 
 .features__item {
     width: 33.33333%;
@@ -318,4 +320,82 @@ p {
 
 .color__iseeones {
     color:rgb(121, 101, 167);
+}
+
+
+/* ===================================
+============---TEAM---============== 
+======================================
+*/
+
+
+.team {
+    height: 780px;
+    margin: 100px 0;
+
+}
+
+.team__container {
+    margin: 100px 360px 100px 360px;
+    height: 780px;
+}
+
+.team__inner {
+    height: 585px;
+    width: 1175px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item {
+    height: 585px;
+    width: 25%;
+}
+
+.team__name {
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+
+.team__tittle {
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.team__text {
+    margin-top: 30px;
+    width: 266px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6c7279;
+    line-height: 20px;
+
+}
+
+.team__icons {
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 3px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #e8ecee;
+}   
+
+.icon__img {
+    margin-top: 10px;
 }
